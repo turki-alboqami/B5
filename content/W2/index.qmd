@@ -4,7 +4,16 @@ format: "html"
 
 ## Module 1: Introductions
 
-Lessons and Labs:
+Learning outcomes:
+
+1. Define Data Science
+2. Identify the three circles that make up Data Science
+3. Recognize the three roles that a Data Scienist takes on
+4. Distinguish between Data Engineers, Data Analysts and Machine Learning Engineers
+5. Define Data Analysis
+6. Distinguish between CDA and EDA and give one example for each
+
+Lessons and labs:
 
 1. [Introduction to Data Science Processes and Roles](./M1/lessons/01_intro.qmd)
 2. [Lab 1: Confirmatory Data Analysis (CDA)- blind typing experiment](./M1/lessons/02_lab_cda_blind_typing.ipynb)
@@ -16,6 +25,22 @@ Exercises:
 
 ## Module 2: Data Wrangling
 
+Learning outcomes:
+
+1. What kind of data does pandas handle?
+2. How do I read and write tabular data?
+3. How do I select a subset of a DataFrame?
+4. How do I create plots in pandas?
+5. How to create new columns derived from existing columns
+6. How to calculate summary statistics
+7. How to reshape the layout of tables
+8. How to combine data from multiple tables
+9. How to handle time series data with ease
+10. How to manipulate textual data
+11. How to apply functions to rows, columns, and tables?
+
+Lessons and labs:
+
 1. [Pandas](./M2/lessons/01_pandas.ipynb) (external links)
 2. [Lab 1: Bike Sharing](./M2/lessons/02_lab_bike_sharing.ipynb)
 3. [Lab 2: Pandas' Function application](./M2/lessons/03_pandas_function_application.ipynb)
@@ -26,12 +51,52 @@ Exercises:
 
 ## Module 3: Descriptive Statistics
 
-1. [Statistical Analysis](./M3/lessons/01_statistics.ipynb)
-2. [Python Visualization Tools](./M3/lessons/02_viz_tools.ipynb)
-3. [Visualizing distributions of data](./M3/lessons/03_displot.ipynb)
-4. [Visualizing categorical data](./M3/lessons/04_catplot.ipynb)
-5. [Visualizing statistical relationships](./M3/lessons/05_relplot.ipynb)
-6. [Effective communication of exploratory results](./M3/lessons/06_effective_viz.ipynb)
+### M3-1: Statistical Analysis
+
+Learning outcomes:
+
+1. Define statistics
+2. Distinguish between Population and Sample
+3. Give examples of numerical variables and categorical variables
+4. Recognize the two type of summaries: numerical and visual
+5. Explain what *Proportion* is
+6. Explain what a *Distribution* is
+7. Describe what are the mean and variance
+8. Explain what a *Percentile* means
+9. Describe how do we get a z-score and why we might need it
+10. Explain what is 1, 2, and 3 standard deviations mean for a normal distribution
+11. Given a box-and-whiskers plot, identify its graphical elements and tell what they mean
+12. Given a plot like the Comparative Sex IQ Distribution, make at least 2 interpretations
+13. Given a plot like the Comparative Sex IQ Distribution, recognize whether a statement is true or not
+14. Name at least 2 outlier-removal methods and explain how they work
+15. Given a distribution plot; name it (e.g., normal, uniform, or skewed to the right)
+
+Lesson: [Statistical Analysis](./M3/lessons/01_statistics.ipynb).
+
+### M3-2: Statistical Visualization
+
+Learning outcomes:
+
+1. Distinguish between figure and axes in matplotlib
+2. Name the three figure-level functions in seaborn
+3. Distinguish between Histogram and Barplot
+4. Given a DataFrame, make subplots via the `col` and `row` parameters in a figure-level function
+5. Given a DataFrame, make subplots and put custom plots using axes-level functions; and have them do `sharex=True` or `sharey=True`
+6. Given a DataFrame, plot the ECDF and interpret it
+7. Given a DataFrame, plot a bi-variate histogram and interpret it
+8. Visualize numerical vs categorical relationships using `sns.catplot()`
+9. Visualize multiple categorical variables in one plot
+10. Use different colors, markers, and styles in a plot
+11. Relate variables using scatter plot
+12. Identify issues in a given visualization and suggest improvements
+
+Lessons and labs:
+
+1. [Python Visualization Tools](./M3/lessons/02_viz_tools.ipynb)
+2. [Visualizing distributions of data](./M3/lessons/03_displot.ipynb)
+3. [Visualizing categorical data](./M3/lessons/04_catplot.ipynb)
+4. [Visualizing statistical relationships](./M3/lessons/05_relplot.ipynb)
+5. [Effective communication of exploratory results](./M3/lessons/06_effective_viz.ipynb)
 
 Exercises:
 
@@ -40,10 +105,42 @@ Exercises:
 
 ## Module 4: Inferential Statistics
 
-1. [Hypothesis Testing](./M4/lessons/01_hypothesis_testing.ipynb)
-2. [Categorical Association](./M4/lessons/02_cat_association.ipynb)
-3. [Numerical Correlation](./M4/lessons/03_num_correlation.ipynb)
+### M4-1: Hypothesis Testing
+
+Learning outcomes:
+
+1. Distinguish between *Inferential* and *Descriptive* Statistics
+2. Distinguish between *Null* and *Alternative* Hypothesis
+3. Given an alternative hypothesis select the correct statistical test
+4. Intrepret the result of a statistical test (p-value)
+5. Understand that alpha (the significance level) is selected by  convention to have the value of `0.05`
+6. Distinguish between *Treatment* and *Control* Groups
+7. Given a claim in layman terms, describe it in statistical terms, as a hypothesis
+8. Given a hypothesis in statistical terms, explain it in layman terms
+9. Recognize when the test is two-sided or one-sided (and in which direction)
+
+Lab: [Hypothesis Testing](./M4/lessons/01_hypothesis_testing.ipynb).
 
 Exercises:
 
 1. [Hypothesis Testing](./M4/exercises/hypothesis_ex.ipynb) (3 questions)
+
+### M4-2: Association and Correlation
+
+Learning outcomes:
+
+1. Distinguish between association and correlation
+2. Recognize how Chi-square test and Cramer's value are used together
+3. Interpret a Chi-square statistic
+4. Interpret a Cramér's V statistic
+5. Find the association between two categorical variables in terms of both: significance and strength
+6. Interpret an r-square statistic
+7. Given a scatter plot, choose the corresponding r-square value from a list of given values
+8. Recognize non-linearity and outlier issues with r-squared value
+9. Explain the phrase "correlation does not imply causation" and give at least 1 example of your own
+10. Explain what a *Confounding Variable* is
+
+Labs:
+
+1. [Categorical Association](./M4/lessons/02_cat_association.ipynb)
+2. [Numerical Correlation](./M4/lessons/03_num_correlation.ipynb)

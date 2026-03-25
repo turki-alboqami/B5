@@ -4,11 +4,11 @@ format: "html"
 
 ## Courses
 
-1. [Python](W1/index.qmd)
-2. [Applied Data Science](W2/index.qmd)
-3. [Applied Machine Learning](W3/index.qmd)
+1. [Python](W1/)
+2. [Applied Data Science](W2/)
+3. [Applied Machine Learning](W3/)
 4. Applied Deep Learning
-5. [Agentic AI](W5/index.qmd)
+5. [Agentic AI](W5/)
 6. Agentic Engineering
 
 [Click to access the Schedule](https://docs.google.com/spreadsheets/d/1I8qq_lphrymOCXXQTBf7ieL2SdGovz_wwqj93PLz2mQ/edit?usp=sharing)
